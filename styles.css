@@ -1,2 +1,14 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.holder > div {
+	border: 2px solid black;
+	height: 40px;
+	width: 60px;
+	background-color: lime;
+}
 /* Your CSS Code here. */
